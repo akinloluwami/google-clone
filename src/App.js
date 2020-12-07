@@ -1,9 +1,21 @@
 import './App.css';
+//import Home from './pages/Home'
+
+import { BrowserRouter as Router, Route, Switch } from './node_modules/react-router-dom';
 
 function App() {
+  const history = createBrowserHistory();
   return (
     <div className="App">
-      <h1>BRUH...YOU GET WHAT I'M SAYING</h1>
+      
+      <Router>
+        <Switch>
+          <Route path="/search">
+            <h1>SEARCH THAT SHIT</h1>
+          </Route>
+        </Switch>
+      </Router>
+      
     </div>
   );
 }
