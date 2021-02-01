@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Home.css";
+import { BsGrid3X3Gap } from "react-icons/bs";
+import { FaUserCircle } from "react-icons/fa";
 
 function Home() {
   return (
@@ -12,6 +15,8 @@ function Home() {
         <div className="homeHeaderRight">
           <Link to="/gmail">Gmail</Link>
           <Link to="/images">Images</Link>
+          <BsGrid3X3Gap />
+          <FaUserCircle />
         </div>
       </div>
       <div className="homeBody">
