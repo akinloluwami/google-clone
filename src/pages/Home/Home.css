@@ -9,12 +9,45 @@
   padding: 20px 30px;
   align-items: center;
 }
+.homeHeaderRight {
+  display: flex;
+  align-items: center;
+  min-width: 13vw;
+}
+.icon {
+  font-size: 25px;
+  margin-left: 15px;
+}
 .homeHeader a {
   text-emphasis: none;
   margin-right: 20px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
 }
 .homeHeader a:hover {
+  text-decoration: underline;
+}
+.homeBody {
+  flex: 1;
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+}
+.homeBody > img {
+  object-fit: contain;
+  height: 92px;
+}
+p {
+  font-size: 13px;
+  text-align: center;
+  padding: 15px 0;
+}
+p span {
+  color: #1a0dab;
+  cursor: pointer;
+  margin: 0 5px;
+}
+p span:hover {
   text-decoration: underline;
 }

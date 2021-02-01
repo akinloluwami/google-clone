@@ -1,0 +1,60 @@
+.searchPageHeaderBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.searchPageHeader {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000000;
+  align-items: flex-start;
+  padding: 30px;
+  border-bottom: 1px solid #9aa0a65d;
+}
+.searchPageLogo {
+  object-fit: contain;
+  height: 50px;
+  margin-right: 50px;
+}
+.bar {
+  width: 1px;
+  height: 30px;
+  background-color: #9aa0a65d;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  padding: 10px 30px;
+  height: 25px;
+  border-radius: 999px;
+  width: 70vw;
+  margin: auto;
+  max-width: 560px;
+}
+.searchBar:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+.searchBar > input {
+  flex: 1;
+  padding: 10px 30px;
+  font-size: medium;
+  border: none;
+  outline: none;
+}
+.icon {
+  margin: 0 7px;
+}
+.searchPageOptions {
+  display: flex;
+}
+.searchPageOptions p {
+  display: flex;
+  align-items: center;
+  color: #5f6368;
+  padding: 0 10px;
+}
+.searchPageOptions p > svg {
+  margin-right: 10px;
+}
