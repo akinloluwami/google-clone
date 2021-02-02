@@ -38,16 +38,16 @@
   object-fit: contain;
   height: 92px;
 }
-p {
+.homeBody p {
   font-size: 13px;
   text-align: center;
   padding: 15px 0;
 }
-p span {
+.homeBody p span {
   color: #1a0dab;
   cursor: pointer;
   margin: 0 5px;
 }
-p span:hover {
+.homeBody p span:hover {
   text-decoration: underline;
 }
